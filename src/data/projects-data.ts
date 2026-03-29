@@ -161,7 +161,7 @@ export const projectsData: Project[] = [
     description: {
       // SOPORTA HTML: <strong>, <br>, <span>, etc.
       en: "<strong>Real-time driver monitoring and rewarding system.</strong><br><br>Developed android application for risk detection, instant alerts and reward engine and an IOT hardware device using Arduino sensors to further detect driver behavior. Implemented computer-vision-based drowsiness detection using OpenCV and pre-trained machine learning models."
-    },    
+    },
     // {
     //   // OPCIONAL: Descripción detallada que aparece en modal
     //   // Útil para explicar contexto, arquitectura, resultados, métricas
@@ -195,9 +195,10 @@ export const projectsData: Project[] = [
     title: {
       en: "Sentinel Store"
     },
+    slug: "sentinelstore",
     description: {
       en:
-      `
+        `
       <strong>Distributed File Storage System with ZooKeeper </strong>
       <br/>
       <br/>
@@ -229,6 +230,7 @@ export const projectsData: Project[] = [
     title: {
       en: "Rahasak"
     },
+    slug: "rahasak",
     description: {
       en: `
       <strong>End-to-End Encrypted Messaging Platform</strong><br><br>
@@ -236,8 +238,8 @@ export const projectsData: Project[] = [
       `
     },
     tech: ["Encryption", " Private Key Management", "Public Key Cryptography", "Apache Kafka", "Next.js"],
-    link: "https://github.com/yourusername/project-repo",
-    demo: "https://project-demo.com",
+    link: "https://github.com/sathindudezoysa/RahasakWeb",
+    demo: "null",
     web: null,
     csv: null,
     featured: true, // false = NO aparece como destacado
@@ -259,6 +261,7 @@ export const projectsData: Project[] = [
     title: {
       en: "TestLang++"
     },
+    slug: "testlang",
     description: {
       en: `
       <strong>API Testing DSL Compiler</strong><br><br>
